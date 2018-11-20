@@ -468,7 +468,7 @@ data-open="click" data-menu="horizontal-menu" data-col="2-columns">
 
         </ul>
       </li>
-
+ 
     </ul>
   <?php } ?>
     </div>
