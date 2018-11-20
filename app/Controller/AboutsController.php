@@ -54,7 +54,7 @@ class AboutsController extends AppController {
 		if ($this->request->is('post')) {
 			$this->About->create();
 			if ($this->About->save($this->request->data)) {
-				return $this->redirect(array('action' => 'index'));
+				return $this->redirect(array('action' => 'index')); 
 			} else {
 				return $this->redirect(array('action' => 'index'));
 
