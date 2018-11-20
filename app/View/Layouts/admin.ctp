@@ -40,7 +40,8 @@ Start conversations that build more valuable relationships with your customers a
                                     'admin/css/plugins/forms/wizard.css',
                                     'admin/vendors/css/pickers/daterange/daterangepicker.css',
                                     'admin/vendors/css/extensions/sweetalert.css',
-                                  'admin/css/plugins/forms/validation/form-validation.css')) ?>
+                                  'admin/css/plugins/forms/validation/form-validation.css',
+                                  'admin/css/pages/email-application.css"')) ?>
 
   <?php echo $this->fetch('css'); ?>
   <!-- END Custom CSS-->
@@ -511,7 +512,8 @@ data-open="click" data-menu="horizontal-menu" data-col="2-columns">
                       'admin/js/scripts/forms/wizard-steps.js',
                       'admin/js/scripts/forms/select/form-select2.js',
                       'admin/js/scripts/extensions/sweet-alerts.js',
-                    'admin/js/scripts/forms/validation/form-validation.js')) ?>
+                    'admin/js/scripts/forms/validation/form-validation.js',
+                    'admin/js/scripts/pages/email-application.js')) ?>
 
 
 
