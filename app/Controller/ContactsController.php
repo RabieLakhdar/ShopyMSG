@@ -22,7 +22,7 @@ class ContactsController extends AppController {
  */
 	public function index() {
 		$this->set('title_for_layout','ShopyMSG Chat');
-		$this->layout="admin";
+		$this->layout="admin"; 
 	}
 
 
