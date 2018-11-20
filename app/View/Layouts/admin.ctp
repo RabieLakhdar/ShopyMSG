@@ -457,6 +457,17 @@ data-open="click" data-menu="horizontal-menu" data-col="2-columns">
         </ul>
       </li>
 
+   <li class="dropdown nav-item" data-menu="dropdown">
+        <a class="dropdown-toggle nav-link" href="" data-toggle="dropdown"><i class="la la-cog"></i>
+          <span>ShopyChat</span>
+        </a>
+        <ul class="dropdown-menu">
+          <li class="active" data-menu="">
+            <?php echo $this->Html->link('Home',array('controller'=>'contacts','action'=>'index',$get_user['id']),array('class'=>'dropdown-item','data-toggle'=>'dropdown')) ?>
+          </li>
+
+        </ul>
+      </li>
 
     </ul>
   <?php } ?>
